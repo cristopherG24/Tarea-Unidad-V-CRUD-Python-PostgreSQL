@@ -6,7 +6,7 @@ conexion = psycopg2.connect(
     port=5432,
     dbname='comercio',
     user='postgres',
-    password='5761039'
+    password='********'
 )
 cursor = conexion.cursor()
 print("Conexion exitosa a la base de datos")
