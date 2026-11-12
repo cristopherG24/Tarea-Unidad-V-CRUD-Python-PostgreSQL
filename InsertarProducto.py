@@ -7,7 +7,7 @@ conexion = psycopg2.connect(
     port=5432,
     dbname='comercio',
     user='postgres',
-    password=os.environ['DB_PASSWORD']
+    password='********'
 )
 cursor = conexion.cursor()
 print("Conexion exitosa a la base de datos")
